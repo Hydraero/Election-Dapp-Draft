@@ -1,4 +1,5 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomicfoundation/hardhat-chai-matchers");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -8,7 +9,7 @@ module.exports = {
   },
   networks:{
     hardhat:{
-      chainID: 1337
+      chainID: 31337
     }
   }
 };
